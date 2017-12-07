@@ -1,0 +1,35 @@
+Webcam, Predictions, and Weather
+
+
+Description
+
+    The program works on weather-related data. Given two set of data which are Kat Kam images scaled to 256*192 and csv data files from GHCN weather data. The images in katkam-scaled folder are between 2016/06/05 6:00 to 2017/10/31 18:00. The csv files in yvr-weather folder are from 2016/05 to 2017/10 with weather data for each day hourly. To run the Python file weather_prediction.py and get some predictions on description of weather images by using SVC model.
+    
+
+Program
+    weather_prediction.py
+    README
+    katkam-scaled
+    yvr-weather
+
+
+Libraries needed
+    sys
+    glob
+    numpy
+    pandas
+    PIL
+    sklearn
+ 
+ 
+Run weather_prediction.py
+    comments: python weather_prediction.py yvr-weather katkam-scaled
+    
+   
+Sample input
+    yvr-weather
+    katkam-scaled
+    
+    
+Expected Results
+    The result will print out the model score, hence we can get to know how good the selected model has done.
